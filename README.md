@@ -14,3 +14,9 @@ A simple Python script to parse the top 15 Whatsapp emojis used in a Whatsapp gr
 2. Unzip the chat export file and add a name to the .txt file you obtain from the zip.
 3. Modify the 'chat_file_path' variable to the name of your .txt file export.
 4. Run the program and you will get a .html awesome report of your top 15 most used Emojis!
+
+## Report
+
+This is how a report looks!
+
+![alt text](https://raw.githubusercontent.com/diegonz2/WhatsappEmojiParser/main/exampleReport.png)
