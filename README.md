@@ -4,7 +4,7 @@ A simple Python script to parse the top 15 Whatsapp emojis used in a Whatsapp gr
 
 ## Features
 
-- Parses the top 15 Whatsapp emojis used in a Whatsapp group or chat.
+- Parses the top 15 Whatsapp emojis used in a Whatsapp group or chat (This top can be modified easily to the number you want!).
 - Generates a .html report of the top 15 emojis.
 - Easy to use and understand.
 
