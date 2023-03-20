@@ -28,7 +28,7 @@ def extract_messages(chat_file_path):
         return messages
 
 # Path to the WhatsApp chat file
-chat_file_path = 'Argentina2018.txt'
+chat_file_path = 'chat_export_file.txt'
 
 # Extract the messages from the chat file
 messages = extract_messages(chat_file_path)
