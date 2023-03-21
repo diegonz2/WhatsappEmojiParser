@@ -18,12 +18,16 @@ def extract_messages(chat_file_path):
         for line in lines:
             if re.match(timestamp_regex, line):
                 if current_message:
+                    # Remove repeated emojis before appending to messages list
+                    current_message = re.sub(r'(' + emoji_regex + r')\1+', r'\1', current_message)
                     messages.append(current_message)
                     current_message = ''
                 current_message += line
             else:
                 current_message += ' ' + line.strip()
         if current_message:
+            # Remove repeated emojis before appending the last message to messages list
+            current_message = re.sub(r'(' + emoji_regex + r')\1+', r'\1', current_message)
             messages.append(current_message)
         return messages
 
